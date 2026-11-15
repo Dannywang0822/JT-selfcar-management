@@ -2,7 +2,7 @@
 
 独立的企业里程补贴测试版。它不是 WorkBuddy 站点的升级，没有原站源代码，也不迁移原站数据。
 
-手机浏览器公开演示（静态 H5，数据只在本地浏览器，不是企业联调环境，也不会连接飞书或 OA）：<https://dannywang0822.github.io/JT-selfcar-management/?v=1>
+手机浏览器演示是 `docs/` 里的静态 H5（数据只在这台浏览器，不是企业联调环境，也不会连接飞书或 OA）。公开地址预定为 <https://dannywang0822.github.io/JT-selfcar-management/?v=1>。仓库管理员需要先在 Settings → Pages 里选择 GitHub Actions，或选择 `main` 分支的 `/docs`，这个链接才会打开。
 
 正式链路是：行程 → 补贴申请 → 飞书审批 → 财务核对 → 确认结算。首期不自动付款。飞书是唯一会实际调用的审批提供商；OA 只有禁用的适配器，不会发单。
 
